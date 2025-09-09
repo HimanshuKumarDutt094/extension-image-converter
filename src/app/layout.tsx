@@ -1,7 +1,13 @@
 import "@/styles/globals.css";
 
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist } from "next/font/google";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#1e293b",
+};
 
 export const metadata: Metadata = {
   title:
@@ -32,6 +38,15 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Extension Image Converter by Himanshu Kumar Dutt",
+    url: "https://extension-image-converter.vercel.app",
+    images: [
+      {
+        url: "https://extension-image-converter.vercel.app/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Extension Image Converter - Microsoft Edge Add-ons Assets",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -39,13 +54,52 @@ export const metadata: Metadata = {
     description:
       "Create perfect Microsoft Edge Add-ons store images with exact specifications for promotional tiles and screenshots. Instant PNG export.",
     creator: "@himanshukumardutt",
+    images: ["https://extension-image-converter.vercel.app/og-image.png"],
   },
-  viewport: "width=device-width, initial-scale=1",
-  themeColor: "#1e293b",
+  alternates: {
+    canonical: "https://extension-image-converter.vercel.app",
+  },
   icons: [
     { rel: "icon", url: "/favicon.ico" },
     { rel: "apple-touch-icon", url: "/favicon.ico" },
   ],
+  manifest: "/manifest.json",
+  category: "developer tools",
+
+  other: {
+    "application/ld+json": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      name: "Extension Image Converter",
+      description:
+        "Professional tool for creating Microsoft Edge Add-ons store images with exact specifications",
+      url: "https://extension-image-converter.vercel.app",
+      applicationCategory: "DeveloperApplication",
+      operatingSystem: "Web Browser",
+      author: {
+        "@type": "Person",
+        name: "Himanshu Kumar Dutt",
+        url: "https://github.com/HimanshuKumarDutt094",
+      },
+      publisher: {
+        "@type": "Person",
+        name: "Himanshu Kumar Dutt",
+      },
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "USD",
+      },
+      featureList: [
+        "Convert images to Microsoft Edge Add-ons specifications",
+        "Small promotional tile (440x280px)",
+        "Large promotional tile (1400x560px)",
+        "Screenshots (1280x800px and 640x400px)",
+        "Instant PNG export",
+        "Local processing - no server upload",
+      ],
+    }),
+  },
 };
 
 const geist = Geist({
