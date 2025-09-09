@@ -15,35 +15,39 @@ import type {
   ImageData,
 } from "./types";
 
-// Microsoft Edge Add-ons store specifications
+// Chrome Web Store and Microsoft Edge Add-ons store specifications
 const DEFAULT_FRAME_SIZES: FrameSize[] = [
   {
     id: "small-tile",
     name: "Small Promotional Tile",
     width: 440,
     height: 280,
-    description: "440x280px - Microsoft Edge Add-ons small promotional tile",
+    description:
+      "440x280px - Chrome Web Store and Microsoft Edge Add-ons small promotional tile",
   },
   {
     id: "large-tile",
     name: "Large Promotional Tile",
     width: 1400,
     height: 560,
-    description: "1400x560px - Microsoft Edge Add-ons large promotional tile",
+    description:
+      "1400x560px - Chrome Web Store and Microsoft Edge Add-ons large promotional tile",
   },
   {
     id: "screenshot-1280",
     name: "Screenshot (1280x800)",
     width: 1280,
     height: 800,
-    description: "1280x800px - Microsoft Edge Add-ons screenshot",
+    description:
+      "1280x800px - Chrome Web Store and Microsoft Edge Add-ons screenshot",
   },
   {
     id: "screenshot-640",
     name: "Screenshot (640x400)",
     width: 640,
     height: 400,
-    description: "640x400px - Microsoft Edge Add-ons screenshot",
+    description:
+      "640x400px - Chrome Web Store and Microsoft Edge Add-ons screenshot",
   },
 ];
 

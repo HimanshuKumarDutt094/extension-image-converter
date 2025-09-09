@@ -11,18 +11,22 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title:
-    "Extension Image Converter — Microsoft Edge Add-ons Assets | Himanshu Kumar Dutt",
+    "Extension Image Converter — Chrome & Microsoft Edge Extension Assets | Himanshu Kumar Dutt",
   description:
-    "Professional tool for creating Microsoft Edge Add-ons store images. Convert and resize to exact specifications: Small promotional tile (440x280px), Large promotional tile (1400x560px), Screenshots (1280x800px or 640x400px). Instant PNG export.",
+    "Professional tool for creating Chrome and Microsoft Edge extension store images. Convert and resize to exact specifications: Small promotional tile (440x280px), Large promotional tile (1400x560px), Screenshots (1280x800px or 640x400px). Instant PNG export.",
   keywords: [
+    "Chrome Web Store",
     "Microsoft Edge Add-ons",
+    "Chrome extension images",
     "Edge extension images",
     "extension promotional tiles",
+    "Chrome store screenshots",
     "Edge store screenshots",
     "440x280 promotional tile",
     "1400x560 large tile",
     "1280x800 screenshot",
     "640x400 screenshot",
+    "Chrome extension assets",
     "Edge extension assets",
     "browser extension images",
     "PNG converter",
@@ -32,9 +36,10 @@ export const metadata: Metadata = {
   publisher: "Himanshu Kumar Dutt",
   robots: "index, follow",
   openGraph: {
-    title: "Extension Image Converter — Microsoft Edge Add-ons Assets",
+    title:
+      "Extension Image Converter — Chrome & Microsoft Edge Extension Assets",
     description:
-      "Create perfect Microsoft Edge Add-ons store images with exact specifications for promotional tiles and screenshots. Instant PNG export.",
+      "Create perfect Chrome and Microsoft Edge extension store images with exact specifications for promotional tiles and screenshots. Instant PNG export.",
     type: "website",
     locale: "en_US",
     siteName: "Extension Image Converter by Himanshu Kumar Dutt",
@@ -44,15 +49,16 @@ export const metadata: Metadata = {
         url: "https://extension-image-converter.vercel.app/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Extension Image Converter - Microsoft Edge Add-ons Assets",
+        alt: "Extension Image Converter - Chrome & Microsoft Edge Extension Assets",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Extension Image Converter — Microsoft Edge Add-ons Assets",
+    title:
+      "Extension Image Converter — Chrome & Microsoft Edge Extension Assets",
     description:
-      "Create perfect Microsoft Edge Add-ons store images with exact specifications for promotional tiles and screenshots. Instant PNG export.",
+      "Create perfect Chrome and Microsoft Edge extension store images with exact specifications for promotional tiles and screenshots. Instant PNG export.",
     creator: "@himanshukumardutt",
     images: ["https://extension-image-converter.vercel.app/og-image.png"],
   },
@@ -72,7 +78,7 @@ export const metadata: Metadata = {
       "@type": "WebApplication",
       name: "Extension Image Converter",
       description:
-        "Professional tool for creating Microsoft Edge Add-ons store images with exact specifications",
+        "Professional tool for creating Chrome and Microsoft Edge extension store images with exact specifications",
       url: "https://extension-image-converter.vercel.app",
       applicationCategory: "DeveloperApplication",
       operatingSystem: "Web Browser",
@@ -91,7 +97,7 @@ export const metadata: Metadata = {
         priceCurrency: "USD",
       },
       featureList: [
-        "Convert images to Microsoft Edge Add-ons specifications",
+        "Convert images to Chrome Web Store and Microsoft Edge Add-ons specifications",
         "Small promotional tile (440x280px)",
         "Large promotional tile (1400x560px)",
         "Screenshots (1280x800px and 640x400px)",

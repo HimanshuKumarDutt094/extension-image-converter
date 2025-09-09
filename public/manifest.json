@@ -1,7 +1,7 @@
 {
   "name": "Extension Image Converter",
   "short_name": "Image Converter",
-  "description": "Professional tool for creating Microsoft Edge Add-ons store images with exact specifications",
+  "description": "Professional tool for creating Chrome and Microsoft Edge extension store images with exact specifications",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1e293b",

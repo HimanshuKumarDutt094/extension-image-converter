@@ -34,9 +34,10 @@ export default function Home() {
               Extension Image Converter
             </h1>
             <p className="mx-auto max-w-2xl text-lg text-slate-300">
-              Professional tool for creating perfect Microsoft Edge Add-ons
-              store images. Convert and resize images to exact promotional tiles
-              and screenshots specifications with instant PNG export.
+              Professional tool for creating perfect Chrome and Microsoft Edge
+              extension store images. Convert and resize images to exact
+              promotional tiles and screenshots specifications with instant PNG
+              export.
             </p>
           </div>
         )}
